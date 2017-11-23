@@ -6,7 +6,7 @@ public class Main {
 
 	public static void main(String[] args) {
 		NetworkTable.setClientMode();
-		NetworkTable.setTeam(4525);
+		NetworkTable.setTeam(TEAM);
 		NetworkTable.initialize();
 		NetworkTable table = NetworkTable.getTable("Test");
 		
